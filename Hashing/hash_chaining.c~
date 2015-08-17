@@ -4,11 +4,11 @@
 typedef struct node
 {
   int data;
-  struct node *next;
+  node *next;
 }node;
-int hash(int n)
+int hash(int n,int m)
 {
-  return n%101;
+  return n%m;
 }
 node *gen_node(int x)
 {
@@ -17,38 +17,14 @@ node *gen_node(int x)
   newnode->next=NULL;
   return newnode;
 }
-void search(int *a,int x,node **head)
-{
-  if(a[hash(x)]==1) // hash exists
-    {
-      printf("Exists!!\n");
-      node *head_pointer=head[hash(x)];
-      int count=0;
-      while(head_pointer!=NULL)
-	{
-	  count++;
-	  head_pointer=head_pointer->next;
- 	}
-       printf("\nCount is %d\n",count);
-    }
-  else
-    printf("Does not exist!\n");
-}
-
-
-
-
-
-
 int main()
 {
   int a[101];
-  int i;
   for(i=0;i<101;i++)
     a[i]=0;
   node *head[101];
   int m=100;
-  int n;
+  int n,i;
   printf("Enter n : ");
   scanf("%d",&n);
   for(i=0;i<n;i++)
@@ -61,19 +37,14 @@ int main()
 	{
 	  a[hash_value]=1;
 	  head[hash_value]=(node *)malloc(sizeof(node));
-	  node *newnode=gen_node(x);
+	  node *newnode=gen_node(int x);
 	  head[hash_value]=newnode;
 	}
       else
 	{
-	  node *newnode=(node *)malloc(sizeof(node));
 	  newnode->next=head[hash_value];
 	  head[hash_value]=newnode;
 	}
     }
-  printf("\nEnter the element you want to search : ");
-  int l;
-  scanf("%d",&l);
-  search(a,l,head);
   return 0;
 }
