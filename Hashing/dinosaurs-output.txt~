@@ -1,0 +1,261 @@
+--- Insert(Tyrannosaurus): (6,3): insert at index 6: success
+--- Insert(Argentinosaurus): (0,0): insert at index 0: success
+--- Insert(Velociraptor): (2,0): insert at index 2: success
+--- Insert(Deinonychus): (3,3): insert at index 3: success
+--- Insert(Triceratops): (7,6): insert at index 7: success
+
++++ High load factor (n = 5, s = 8). Rehashing necessary...
+
++++ Rehashing with doubled size 16
+    Entry   0: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (0,0): insert at index 0: success
+    Entry   2: Relocating (Velociraptor): --- Insert(Velociraptor): (5,1): insert at index 5: success
+    Entry   3: Relocating (Deinonychus): --- Insert(Deinonychus): (7,6): insert at index 7: success
+    Entry   6: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (12,6): insert at index 12: success
+    Entry   7: Relocating (Triceratops): --- Insert(Triceratops): (14,12): insert at index 14: success
+    Rehashing successful...
+
+--- Insert(Carcharodontosaurus): (3,10): insert at index 3: success
+--- Insert(Argentinosaurus): (0,0): already present
+--- Insert(Stegosaurus): (6,2): insert at index 6: success
+--- Insert(Allosaurus): (9,11): insert at index 9: success
+--- Insert(Brachiosaurus): (11,1): insert at index 11: success
+
++++ High load factor (n = 9, s = 16). Rehashing necessary...
+
++++ Rehashing with doubled size 32
+    Entry   0: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (0,0): insert at index 0: success
+    Entry   3: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (6,20): insert at index 6: success
+    Entry   5: Relocating (Velociraptor): --- Insert(Velociraptor): (11,3): insert at index 11: success
+    Entry   6: Relocating (Stegosaurus): --- Insert(Stegosaurus): (12,5): insert at index 12: success
+    Entry   7: Relocating (Deinonychus): --- Insert(Deinonychus): (15,13): insert at index 15: success
+    Entry   9: Relocating (Allosaurus): --- Insert(Allosaurus): (18,22): insert at index 18: success
+    Entry  11: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (22,2): insert at index 22: success
+    Entry  12: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (25,13): insert at index 25: success
+    Entry  14: Relocating (Triceratops): --- Insert(Triceratops): (29,25): insert at index 29: success
+    Rehashing successful...
+
+--- Insert(Diplodocus): (23,5): insert at index 23: success
+--- Insert(Giganotosaurus): (5,15): insert at index 5: success
+--- Insert(Megalosaurus): (1,3): insert at index 1: success
+--- Insert(Barapasaurus): (0,0): temporary failure
+
++++ Rehashing with changed parameters (3,5)
+    Entry   0: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (0,0): insert at index 0: success
+    Entry   1: Relocating (Megalosaurus): --- Insert(Megalosaurus): (3,6): insert at index 3: success
+    Entry   5: Relocating (Giganotosaurus): --- Insert(Giganotosaurus): (15,25): insert at index 15: success
+    Entry   6: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (20,2): insert at index 20: success
+    Entry  11: Relocating (Velociraptor): --- Insert(Velociraptor): (3,26): insert at index 26: success
+    Entry  12: Relocating (Stegosaurus): --- Insert(Stegosaurus): (5,30): insert at index 5: success
+    Entry  15: Relocating (Deinonychus): --- Insert(Deinonychus): (13,11): insert at index 13: success
+    Entry  18: Relocating (Allosaurus): --- Insert(Allosaurus): (22,26): insert at index 22: success
+    Entry  22: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (2,15): insert at index 2: success
+    Entry  23: Relocating (Diplodocus): --- Insert(Diplodocus): (5,20): insert at index 30: success
+    Entry  25: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (13,1): insert at index 1: success
+    Entry  29: Relocating (Triceratops): --- Insert(Triceratops): (25,21): insert at index 25: success
+    Rehashing successful...
+
+--- Insert(Barapasaurus): (0,0): temporary failure
+
++++ Rehashing with changed parameters (5,7)
+    Entry   0: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (0,0): insert at index 0: success
+    Entry   1: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (1,21): insert at index 1: success
+    Entry   2: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (15,27): insert at index 15: success
+    Entry   3: Relocating (Megalosaurus): --- Insert(Megalosaurus): (6,8): insert at index 6: success
+    Entry   5: Relocating (Diplodocus): --- Insert(Diplodocus): (20,3): insert at index 20: success
+    Entry  13: Relocating (Deinonychus): --- Insert(Deinonychus): (11,9): insert at index 11: success
+    Entry  15: Relocating (Giganotosaurus): --- Insert(Giganotosaurus): (25,3): insert at index 25: success
+    Entry  20: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (2,16): insert at index 2: success
+    Entry  22: Relocating (Allosaurus): --- Insert(Allosaurus): (26,30): insert at index 26: success
+    Entry  25: Relocating (Triceratops): --- Insert(Triceratops): (21,17): insert at index 21: success
+    Entry  26: Relocating (Velociraptor): --- Insert(Velociraptor): (26,18): insert at index 18: success
+    Entry  30: Relocating (Stegosaurus): --- Insert(Stegosaurus): (30,23): insert at index 30: success
+    Rehashing successful...
+
+--- Insert(Barapasaurus): (0,0): temporary failure
+
++++ Rehashing with changed parameters (7,9)
+    Entry   0: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (0,0): insert at index 0: success
+    Entry   1: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (21,9): insert at index 21: success
+    Entry   2: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (16,29): insert at index 16: success
+    Entry   6: Relocating (Megalosaurus): --- Insert(Megalosaurus): (8,11): insert at index 8: success
+    Entry  11: Relocating (Deinonychus): --- Insert(Deinonychus): (9,7): insert at index 9: success
+    Entry  15: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (27,8): insert at index 27: success
+    Entry  18: Relocating (Velociraptor): --- Insert(Velociraptor): (18,9): insert at index 18: success
+    Entry  20: Relocating (Diplodocus): --- Insert(Diplodocus): (3,17): insert at index 3: success
+    Entry  21: Relocating (Triceratops): --- Insert(Triceratops): (17,13): insert at index 17: success
+    Entry  25: Relocating (Giganotosaurus): --- Insert(Giganotosaurus): (3,13): insert at index 13: success
+    Entry  26: Relocating (Allosaurus): --- Insert(Allosaurus): (30,3): insert at index 30: success
+    Entry  30: Relocating (Stegosaurus): --- Insert(Stegosaurus): (23,16): insert at index 23: success
+    Rehashing successful...
+
+--- Insert(Barapasaurus): (0,0): temporary failure
+
++++ Rehashing with changed parameters (9,11)
+    Entry   0: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (0,0): insert at index 0: success
+    Entry   3: Relocating (Diplodocus): --- Insert(Diplodocus): (17,0): insert at index 17: success
+    Entry   8: Relocating (Megalosaurus): --- Insert(Megalosaurus): (11,13): insert at index 11: success
+    Entry   9: Relocating (Deinonychus): --- Insert(Deinonychus): (7,5): insert at index 7: success
+    Entry  13: Relocating (Giganotosaurus): --- Insert(Giganotosaurus): (13,24): insert at index 13: success
+    Entry  16: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (29,11): insert at index 29: success
+    Entry  17: Relocating (Triceratops): --- Insert(Triceratops): (13,9): insert at index 9: success
+    Entry  18: Relocating (Velociraptor): --- Insert(Velociraptor): (9,1): insert at index 1: success
+    Entry  21: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (9,29): insert at index 24: success
+    Entry  23: Relocating (Stegosaurus): --- Insert(Stegosaurus): (16,9): insert at index 16: success
+    Entry  27: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (8,20): insert at index 8: success
+    Entry  30: Relocating (Allosaurus): --- Insert(Allosaurus): (3,7): insert at index 3: success
+    Rehashing successful...
+
+--- Insert(Barapasaurus): (0,0): permanent failure, giving up...
+--- Insert(Patagosaurus): (0,25): insert at index 25: success
+--- Insert(Leptoceratops): (31,20): insert at index 31: success
+--- Insert(Archeopteryx): (27,26): insert at index 27: success
+--- Insert(Rajasaurus): (23,14): insert at index 23: success
+--- Insert(Iguanodon): (8,9): insert at index 20: success
+
++++ High load factor (n = 17, s = 32). Rehashing necessary...
+
++++ Rehashing with doubled size 64
+    Entry   0: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (0,1): insert at index 0: success
+    Entry   1: Relocating (Velociraptor): --- Insert(Velociraptor): (19,2): insert at index 19: success
+    Entry   3: Relocating (Allosaurus): --- Insert(Allosaurus): (6,15): insert at index 6: success
+    Entry   7: Relocating (Deinonychus): --- Insert(Deinonychus): (15,11): insert at index 15: success
+    Entry   8: Relocating (Iguanodon): --- Insert(Iguanodon): (16,19): insert at index 16: success
+    Entry   9: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (18,58): insert at index 18: success
+    Entry  11: Relocating (Megalosaurus): --- Insert(Megalosaurus): (22,26): insert at index 22: success
+    Entry  13: Relocating (Triceratops): --- Insert(Triceratops): (26,18): insert at index 26: success
+    Entry  16: Relocating (Stegosaurus): --- Insert(Stegosaurus): (32,18): insert at index 32: success
+    Entry  17: Relocating (Diplodocus): --- Insert(Diplodocus): (35,0): insert at index 35: success
+    Entry  20: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (16,41): insert at index 41: success
+    Entry  23: Relocating (Rajasaurus): --- Insert(Rajasaurus): (47,29): insert at index 47: success
+    Entry  24: Relocating (Giganotosaurus): --- Insert(Giganotosaurus): (27,48): insert at index 27: success
+    Entry  25: Relocating (Patagosaurus): --- Insert(Patagosaurus): (0,50): insert at index 50: success
+    Entry  27: Relocating (Archeopteryx): --- Insert(Archeopteryx): (55,53): insert at index 55: success
+    Entry  29: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (59,23): insert at index 59: success
+    Entry  31: Relocating (Leptoceratops): --- Insert(Leptoceratops): (63,41): insert at index 63: success
+    Rehashing successful...
+
+--- Insert(Spinosaurus): (7,8): insert at index 7: success
+--- Insert(Albertosaurus): (55,46): insert at index 46: success
+--- Insert(Ornithomimus): (37,39): insert at index 37: success
+--- Insert(Protoceratops): (48,30): insert at index 48: success
+--- Insert(Titanosaurus): (37,52): insert at index 52: success
+--- Insert(Agustinia): (21,47): insert at index 21: success
+--- Insert(Microraptor): (54,44): insert at index 54: success
+--- Insert(Megaraptor): (49,31): insert at index 49: success
+--- Insert(Baryonyx): (63,62): insert at index 62: success
+--- Insert(Ceratosaurus): (43,3): insert at index 43: success
+--- Insert(Carnotaurus): (19,38): insert at index 38: success
+--- Insert(Afrovenator): (20,53): insert at index 20: success
+--- Insert(Majungasaurus): (12,21): insert at index 12: success
+--- Insert(Edaphosaurus): (31,3): insert at index 31: success
+--- Insert(Pteranodon): (16,41): temporary failure
+
++++ Rehashing with changed parameters (11,13)
+    Entry   0: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (1,1): insert at index 1: success
+    Entry   6: Relocating (Allosaurus): --- Insert(Allosaurus): (15,23): insert at index 15: success
+    Entry   7: Relocating (Spinosaurus): --- Insert(Spinosaurus): (8,10): insert at index 8: success
+    Entry  12: Relocating (Majungasaurus): --- Insert(Majungasaurus): (21,31): insert at index 21: success
+    Entry  15: Relocating (Deinonychus): --- Insert(Deinonychus): (11,7): insert at index 11: success
+    Entry  16: Relocating (Iguanodon): --- Insert(Iguanodon): (19,23): insert at index 19: success
+    Entry  18: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (58,33): insert at index 58: success
+    Entry  19: Relocating (Velociraptor): --- Insert(Velociraptor): (2,49): insert at index 2: success
+    Entry  20: Relocating (Afrovenator): --- Insert(Afrovenator): (53,22): insert at index 53: success
+    Entry  21: Relocating (Agustinia): --- Insert(Agustinia): (47,9): insert at index 47: success
+    Entry  22: Relocating (Megalosaurus): --- Insert(Megalosaurus): (26,31): insert at index 26: success
+    Entry  26: Relocating (Triceratops): --- Insert(Triceratops): (18,9): insert at index 18: success
+    Entry  27: Relocating (Giganotosaurus): --- Insert(Giganotosaurus): (48,4): insert at index 48: success
+    Entry  31: Relocating (Edaphosaurus): --- Insert(Edaphosaurus): (3,38): insert at index 3: success
+    Entry  32: Relocating (Stegosaurus): --- Insert(Stegosaurus): (18,4): insert at index 4: success
+    Entry  35: Relocating (Diplodocus): --- Insert(Diplodocus): (0,29): insert at index 0: success
+    Entry  37: Relocating (Ornithomimus): --- Insert(Ornithomimus): (39,40): insert at index 39: success
+    Entry  38: Relocating (Carnotaurus): --- Insert(Carnotaurus): (38,56): insert at index 38: success
+    Entry  41: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (41,2): insert at index 41: success
+    Entry  43: Relocating (Ceratosaurus): --- Insert(Ceratosaurus): (3,27): insert at index 27: success
+    Entry  46: Relocating (Albertosaurus): --- Insert(Albertosaurus): (46,37): insert at index 46: success
+    Entry  47: Relocating (Rajasaurus): --- Insert(Rajasaurus): (29,11): insert at index 29: success
+    Entry  48: Relocating (Protoceratops): --- Insert(Protoceratops): (30,12): insert at index 30: success
+    Entry  49: Relocating (Megaraptor): --- Insert(Megaraptor): (31,14): insert at index 31: success
+    Entry  50: Relocating (Patagosaurus): --- Insert(Patagosaurus): (50,35): insert at index 50: success
+    Entry  52: Relocating (Titanosaurus): --- Insert(Titanosaurus): (52,3): insert at index 52: success
+    Entry  54: Relocating (Microraptor): --- Insert(Microraptor): (44,35): insert at index 44: success
+    Entry  55: Relocating (Archeopteryx): --- Insert(Archeopteryx): (53,51): insert at index 51: success
+    Entry  59: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (23,50): insert at index 23: success
+    Entry  62: Relocating (Baryonyx): --- Insert(Baryonyx): (62,62): insert at index 62: success
+    Entry  63: Relocating (Leptoceratops): --- Insert(Leptoceratops): (41,20): insert at index 20: success
+    Rehashing successful...
+
+--- Insert(Pteranodon): (41,2): temporary failure
+
++++ Rehashing with changed parameters (13,15)
+    Entry   0: Relocating (Diplodocus): --- Insert(Diplodocus): (29,58): insert at index 29: success
+    Entry   1: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (1,1): insert at index 1: success
+    Entry   2: Relocating (Velociraptor): --- Insert(Velociraptor): (49,32): insert at index 49: success
+    Entry   3: Relocating (Edaphosaurus): --- Insert(Edaphosaurus): (38,10): insert at index 38: success
+    Entry   4: Relocating (Stegosaurus): --- Insert(Stegosaurus): (4,54): insert at index 4: success
+    Entry   8: Relocating (Spinosaurus): --- Insert(Spinosaurus): (10,11): insert at index 10: success
+    Entry  11: Relocating (Deinonychus): --- Insert(Deinonychus): (7,4): insert at index 7: success
+    Entry  15: Relocating (Allosaurus): --- Insert(Allosaurus): (23,32): insert at index 23: success
+    Entry  18: Relocating (Triceratops): --- Insert(Triceratops): (9,1): insert at index 9: success
+    Entry  19: Relocating (Iguanodon): --- Insert(Iguanodon): (23,26): insert at index 26: success
+    Entry  20: Relocating (Leptoceratops): --- Insert(Leptoceratops): (20,63): insert at index 20: success
+    Entry  21: Relocating (Majungasaurus): --- Insert(Majungasaurus): (31,41): insert at index 31: success
+    Entry  23: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (50,14): insert at index 50: success
+    Entry  26: Relocating (Megalosaurus): --- Insert(Megalosaurus): (31,36): insert at index 36: success
+    Entry  27: Relocating (Ceratosaurus): --- Insert(Ceratosaurus): (27,51): insert at index 27: success
+    Entry  29: Relocating (Rajasaurus): --- Insert(Rajasaurus): (11,57): insert at index 11: success
+    Entry  30: Relocating (Protoceratops): --- Insert(Protoceratops): (12,59): insert at index 12: success
+    Entry  31: Relocating (Megaraptor): --- Insert(Megaraptor): (14,60): insert at index 14: success
+    Entry  38: Relocating (Carnotaurus): --- Insert(Carnotaurus): (56,11): insert at index 56: success
+    Entry  39: Relocating (Ornithomimus): --- Insert(Ornithomimus): (40,41): insert at index 40: success
+    Entry  41: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (2,27): insert at index 2: success
+    Entry  44: Relocating (Microraptor): --- Insert(Microraptor): (35,26): insert at index 35: success
+    Entry  46: Relocating (Albertosaurus): --- Insert(Albertosaurus): (37,28): insert at index 37: success
+    Entry  47: Relocating (Agustinia): --- Insert(Agustinia): (9,35): permanent failure, giving up...
+    Rehashing failed...
+
+
++++ Rehashing with doubled size 128
+    Entry   0: Relocating (Diplodocus): --- Insert(Diplodocus): (1,59): insert at index 1: success
+    Entry   1: Relocating (Argentinosaurus): --- Insert(Argentinosaurus): (2,2): insert at index 2: success
+    Entry   2: Relocating (Velociraptor): --- Insert(Velociraptor): (5,99): insert at index 5: success
+    Entry   3: Relocating (Edaphosaurus): --- Insert(Edaphosaurus): (6,77): insert at index 6: success
+    Entry   4: Relocating (Stegosaurus): --- Insert(Stegosaurus): (36,8): insert at index 36: success
+    Entry   8: Relocating (Spinosaurus): --- Insert(Spinosaurus): (17,20): insert at index 17: success
+    Entry  11: Relocating (Deinonychus): --- Insert(Deinonychus): (23,15): insert at index 23: success
+    Entry  15: Relocating (Allosaurus): --- Insert(Allosaurus): (30,47): insert at index 30: success
+    Entry  18: Relocating (Triceratops): --- Insert(Triceratops): (36,19): insert at index 19: success
+    Entry  19: Relocating (Iguanodon): --- Insert(Iguanodon): (39,46): insert at index 39: success
+    Entry  20: Relocating (Leptoceratops): --- Insert(Leptoceratops): (83,41): insert at index 83: success
+    Entry  21: Relocating (Majungasaurus): --- Insert(Majungasaurus): (43,63): insert at index 43: success
+    Entry  23: Relocating (Carcharodontosaurus): --- Insert(Carcharodontosaurus): (46,101): insert at index 46: success
+    Entry  26: Relocating (Megalosaurus): --- Insert(Megalosaurus): (53,63): insert at index 53: success
+    Entry  27: Relocating (Ceratosaurus): --- Insert(Ceratosaurus): (7,55): insert at index 7: success
+    Entry  29: Relocating (Rajasaurus): --- Insert(Rajasaurus): (58,22): insert at index 58: success
+    Entry  30: Relocating (Protoceratops): --- Insert(Protoceratops): (61,25): insert at index 61: success
+    Entry  31: Relocating (Megaraptor): --- Insert(Megaraptor): (63,28): insert at index 63: success
+    Entry  38: Relocating (Carnotaurus): --- Insert(Carnotaurus): (76,113): insert at index 76: success
+    Entry  39: Relocating (Ornithomimus): --- Insert(Ornithomimus): (78,81): insert at index 78: success
+    Entry  41: Relocating (Brachiosaurus): --- Insert(Brachiosaurus): (82,4): insert at index 82: success
+    Entry  44: Relocating (Microraptor): --- Insert(Microraptor): (89,70): insert at index 89: success
+    Entry  46: Relocating (Albertosaurus): --- Insert(Albertosaurus): (92,74): insert at index 92: success
+    Entry  47: Relocating (Agustinia): --- Insert(Agustinia): (95,19): insert at index 95: success
+    Entry  48: Relocating (Giganotosaurus): --- Insert(Giganotosaurus): (96,9): insert at index 96: success
+    Entry  50: Relocating (Patagosaurus): --- Insert(Patagosaurus): (100,71): insert at index 100: success
+    Entry  51: Relocating (Archeopteryx): --- Insert(Archeopteryx): (107,103): insert at index 107: success
+    Entry  52: Relocating (Titanosaurus): --- Insert(Titanosaurus): (104,7): insert at index 104: success
+    Entry  53: Relocating (Afrovenator): --- Insert(Afrovenator): (106,44): insert at index 106: success
+    Entry  58: Relocating (Tyrannosaurus): --- Insert(Tyrannosaurus): (116,67): insert at index 116: success
+    Entry  62: Relocating (Baryonyx): --- Insert(Baryonyx): (125,125): insert at index 125: success
+    Rehashing successful...
+
+--- Insert(Pteranodon): (83,5): insert at index 41: success
+--- Insert(Apatosaurus): (49,35): insert at index 49: success
+--- Insert(Edmontosaurus): (98,104): insert at index 98: success
+
++++ Search(Carcharodontosaurus): (46,101): SUCCESS
++++ Search(Arobisaurus): (41,119): FAILURE
++++ Search(Triceratops): (36,19): SUCCESS
+
++++ Delete(Majungasaurus): (43,63): deletion at index 43: SUCCESS
++++ Delete(Leptoceratops): (83,41): deletion at index 41: SUCCESS
++++ Delete(Abhijiraptor): (29,116): FAILURE

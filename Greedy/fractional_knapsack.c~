@@ -1,0 +1,96 @@
+#include<stdio.h>
+void merge(float *array,int *v,int *w,int start,int end)
+{
+  float *a=array,*b=array+(start+end)/2+1;
+  float c[100];
+  int v1[100],w1[100];
+  int mid=(start+end)/2;
+  int i=0,j=mid+1,k=0;
+  while(i<=mid &&j<=end)
+    {
+      if(a[i]<b[j])
+	{
+	  v1[k]=v[i];
+	  w1[k]=w[i];
+	  c[k++]=a[i++];
+	}
+      else if(a[i]==b[j])
+	{
+	  v1[k]=v[i];
+	  w1[k]=w[i];
+	  c[k++]=a[i++];
+	  v1[k]=v[j];
+	  w1[k]=w[j];
+	  c[k++]=b[j++];
+	}
+      else
+	{
+	  v1[k]=v[j];
+	  w1[k]=w[j];
+	  c[k++]=b[j++];
+	}
+    }
+  while(i<=mid)
+    {
+      v`[k]=v[i];
+      w1[k]=w[i];
+      c[k++]=a[i++];
+    }
+  while(j<=end)
+    {
+      v1[k]=v[j];
+      w1[k]=w[j];
+      c[k++]=b[j++];
+    }
+  for(i=start;i<=end;i++)
+    a[i]=c[i];
+}
+
+
+
+
+
+void mergesort(float *a,int *b,int *c,int start,int end)
+{
+  if(start==end)
+    return;
+  mergesort(a,b,c,start,(start+end)/2);
+  mergesort(a,b,c,(start+end)/2+1,end);
+  merge(a,b,c,start,end);
+}
+
+
+int main()
+{
+int n;
+int k;
+printf("Enter the number of elements and weight of the bag ");
+scanf("%d %d",&n,&k);
+int i,j;
+int x,y;
+ int value[100],weight[100];
+ float ratio[100];
+ printf("Enter :");
+for(i=0;i<n;i++)
+{
+  scanf("%d %d",&value[i],&weight[i]);
+  ratio[i]=(float)value[i]/weight[i];
+ }
+ mergesort(ratio,weight,value,0,n-1);
+ printf("After sorting:\n");
+ float ans=0,max_weight=k;
+ i=n-1;
+ while(1)
+   {
+     if(ratio[i]*weight[i]<=max_weight)
+       {
+	 max_weight-=ratio[i]*weight[i];
+	 ans+=value[i];
+       }
+     else
+       break;
+   }
+ printf("The max value possible is %d\n",ans);
+ return 0;
+}
+

@@ -1,0 +1,291 @@
+Inserting Tyrannosaurus (6,3)  in index 6...Success
+Inserting Argentinosaurus (0,0)  in index 0...Success
+Inserting Velociraptor (2,0)  in index 2...Success
+Inserting Deinonychus (3,3)  in index 3...Success
+Inserting Triceratops (7,6)  in index 7...
+
+High load factor=5/8...Rehashing...
+
+Rehashing with double size 16
+
+Entry number 0 : Inserting Argentinosaurus (0,0)  in index 0...Success
+Entry number 2 : Inserting Velociraptor (5,1)  in index 5...Success
+Entry number 3 : Inserting Deinonychus (7,6)  in index 7...Success
+Entry number 6 : Inserting Tyrannosaurus (12,6)  in index 12...Success
+Entry number 7 : Inserting Triceratops (14,12)  in index 14...Success
+
+Rehash successful!
+
+Inserting Carcharodontosaurus (3,10)  in index 3...Success
+Inserting Argentinosaurus (0,0) :  already present
+Inserting Stegosaurus (6,2)  in index 6...Success
+Inserting Allosaurus (9,11)  in index 9...Success
+Inserting Brachiosaurus (11,1)  in index 11...
+
+High load factor=9/16...Rehashing...
+
+Rehashing with double size 32
+
+Entry number 0 : Inserting Argentinosaurus (0,0)  in index 0...Success
+Entry number 3 : Inserting Carcharodontosaurus (6,20)  in index 6...Success
+Entry number 5 : Inserting Velociraptor (11,3)  in index 11...Success
+Entry number 6 : Inserting Stegosaurus (12,5)  in index 12...Success
+Entry number 7 : Inserting Deinonychus (15,13)  in index 15...Success
+Entry number 9 : Inserting Allosaurus (18,22)  in index 18...Success
+Entry number 11 : Inserting Brachiosaurus (22,2)  in index 22...Success
+Entry number 12 : Inserting Tyrannosaurus (25,13)  in index 25...Success
+Entry number 14 : Inserting Triceratops (29,25)  in index 29...Success
+
+Rehash successful!
+
+Inserting Diplodocus (23,5)  in index 23...Success
+Inserting Giganotosaurus (5,15)  in index 5...Success
+Inserting Megalosaurus (1,3)  in index 1...Success
+Inserting Barapasaurus (0,0) temporary failure
+
+Rehashing with changed parameters (3,5)
+
+Entry number 0 : Inserting Argentinosaurus (0,0)  in index 0...Success
+Entry number 1 : Inserting Megalosaurus (3,6)  in index 3...Success
+Entry number 5 : Inserting Giganotosaurus (15,25)  in index 15...Success
+Entry number 6 : Inserting Carcharodontosaurus (20,2)  in index 20...Success
+Entry number 11 : Inserting Velociraptor (3,26) in index 26...Success
+Entry number 12 : Inserting Stegosaurus (5,30)  in index 5...Success
+Entry number 15 : Inserting Deinonychus (13,11)  in index 13...Success
+Entry number 18 : Inserting Allosaurus (22,26)  in index 22...Success
+Entry number 22 : Inserting Brachiosaurus (2,15)  in index 2...Success
+Entry number 23 : Inserting Diplodocus (5,20) in index 30...Success
+Entry number 25 : Inserting Tyrannosaurus (13,1) in index 1...Success
+Entry number 29 : Inserting Triceratops (25,21)  in index 25...Success
+
+Rehash successful!
+
+Inserting Barapasaurus (0,0) temporary failure
+
+Rehashing with changed parameters (5,7)
+
+Entry number 0 : Inserting Argentinosaurus (0,0)  in index 0...Success
+Entry number 1 : Inserting Tyrannosaurus (1,21)  in index 1...Success
+Entry number 2 : Inserting Brachiosaurus (15,27)  in index 15...Success
+Entry number 3 : Inserting Megalosaurus (6,8)  in index 6...Success
+Entry number 5 : Inserting Diplodocus (20,3)  in index 20...Success
+Entry number 13 : Inserting Deinonychus (11,9)  in index 11...Success
+Entry number 15 : Inserting Giganotosaurus (25,3)  in index 25...Success
+Entry number 20 : Inserting Carcharodontosaurus (2,16)  in index 2...Success
+Entry number 22 : Inserting Allosaurus (26,30)  in index 26...Success
+Entry number 25 : Inserting Triceratops (21,17)  in index 21...Success
+Entry number 26 : Inserting Velociraptor (26,18) in index 18...Success
+Entry number 30 : Inserting Stegosaurus (30,23)  in index 30...Success
+
+Rehash successful!
+
+Inserting Barapasaurus (0,0) temporary failure
+
+Rehashing with changed parameters (7,9)
+
+Entry number 0 : Inserting Argentinosaurus (0,0)  in index 0...Success
+Entry number 1 : Inserting Tyrannosaurus (21,9)  in index 21...Success
+Entry number 2 : Inserting Carcharodontosaurus (16,29)  in index 16...Success
+Entry number 6 : Inserting Megalosaurus (8,11)  in index 8...Success
+Entry number 11 : Inserting Deinonychus (9,7)  in index 9...Success
+Entry number 15 : Inserting Brachiosaurus (27,8)  in index 27...Success
+Entry number 18 : Inserting Velociraptor (18,9)  in index 18...Success
+Entry number 20 : Inserting Diplodocus (3,17)  in index 3...Success
+Entry number 21 : Inserting Triceratops (17,13)  in index 17...Success
+Entry number 25 : Inserting Giganotosaurus (3,13) in index 13...Success
+Entry number 26 : Inserting Allosaurus (30,3)  in index 30...Success
+Entry number 30 : Inserting Stegosaurus (23,16)  in index 23...Success
+
+Rehash successful!
+
+Inserting Barapasaurus (0,0) temporary failure
+
+Rehashing with changed parameters (9,11)
+
+Entry number 0 : Inserting Argentinosaurus (0,0)  in index 0...Success
+Entry number 3 : Inserting Diplodocus (17,0)  in index 17...Success
+Entry number 8 : Inserting Megalosaurus (11,13)  in index 11...Success
+Entry number 9 : Inserting Deinonychus (7,5)  in index 7...Success
+Entry number 13 : Inserting Giganotosaurus (13,24)  in index 13...Success
+Entry number 16 : Inserting Carcharodontosaurus (29,11)  in index 29...Success
+Entry number 17 : Inserting Triceratops (13,9) in index 9...Success
+Entry number 18 : Inserting Velociraptor (9,1) in index 1...Success
+Entry number 21 : Inserting Tyrannosaurus (9,29) in index 24...Success
+Entry number 23 : Inserting Stegosaurus (16,9)  in index 16...Success
+Entry number 27 : Inserting Brachiosaurus (8,20)  in index 8...Success
+Entry number 30 : Inserting Allosaurus (3,7)  in index 3...Success
+
+Rehash successful!
+
+Inserting Barapasaurus (0,0) temporary failure
+
+Rehashing with changed parameters (11,13)
+
+Entry number 0 : Inserting Argentinosaurus (0,0)  in index 0...Success
+Entry number 1 : Inserting Velociraptor (1,24)  in index 1...Success
+Entry number 3 : Inserting Allosaurus (7,11)  in index 7...Success
+Entry number 7 : Inserting Deinonychus (5,3)  in index 5...Success
+Entry number 8 : Inserting Brachiosaurus (20,1)  in index 20...Success
+Entry number 9 : Inserting Tyrannosaurus (29,16)  in index 29...Success
+Entry number 11 : Inserting Megalosaurus (13,15)  in index 13...Success
+Entry number 13 : Inserting Triceratops (9,4)  in index 9...Success
+Entry number 16 : Inserting Stegosaurus (9,2) in index 2...Success
+Entry number 17 : Inserting Diplodocus (0,14) in index 14...Success
+Entry number 24 : Inserting Giganotosaurus (24,2)  in index 24...Success
+Entry number 29 : Inserting Carcharodontosaurus (11,25)  in index 11...Success
+
+Rehash successful!
+
+Inserting Barapasaurus (0,0) Inserting Patagosaurus (25,17)  in index 25...Success
+Inserting Leptoceratops (20,10) in index 10...Success
+Inserting Archeopteryx (26,25)  in index 26...Success
+Inserting Rajasaurus (14,5) temporary failure
+
+Rehashing with changed parameters (13,15)
+
+Entry number 0 : Inserting Diplodocus (14,29)  in index 14...Success
+Entry number 1 : Inserting Velociraptor (24,16)  in index 24...Success
+Entry number 2 : Inserting Stegosaurus (2,27)  in index 2...Success
+Entry number 5 : Inserting Deinonychus (3,2)  in index 3...Success
+Entry number 7 : Inserting Allosaurus (11,16)  in index 11...Success
+Entry number 9 : Inserting Triceratops (4,0)  in index 4...Success
+Entry number 10 : Inserting Leptoceratops (10,31)  in index 10...Success
+Entry number 11 : Inserting Carcharodontosaurus (25,7)  in index 25...Success
+Entry number 13 : Inserting Megalosaurus (15,18)  in index 15...Success
+Entry number 14 : Inserting Rajasaurus (5,28)  in index 5...Success
+Entry number 20 : Inserting Brachiosaurus (1,13)  in index 1...Success
+Entry number 24 : Inserting Giganotosaurus (2,12) in index 12...Success
+Entry number 25 : Inserting Patagosaurus (17,10)  in index 17...Success
+Entry number 26 : Inserting Archeopteryx (25,24) in index 7...Success
+Entry number 29 : Inserting Tyrannosaurus (16,4)  in index 16...Success
+
+Rehash successful!
+
+Inserting Argentinosaurus (0,0)  in index 0...Success
+Inserting Iguanodon (11,13) in index 13...
+
+High load factor=17/32...Rehashing...
+
+Rehashing with double size 64
+
+Entry number 0 : Inserting Argentinosaurus (1,1)  in index 1...Success
+Entry number 1 : Inserting Brachiosaurus (2,27)  in index 2...Success
+Entry number 2 : Inserting Stegosaurus (4,54)  in index 4...Success
+Entry number 3 : Inserting Deinonychus (7,4)  in index 7...Success
+Entry number 4 : Inserting Triceratops (9,1)  in index 9...Success
+Entry number 5 : Inserting Rajasaurus (11,57)  in index 11...Success
+Entry number 7 : Inserting Carcharodontosaurus (50,14)  in index 50...Success
+Entry number 10 : Inserting Leptoceratops (20,63)  in index 20...Success
+Entry number 11 : Inserting Allosaurus (23,32)  in index 23...Success
+Entry number 12 : Inserting Giganotosaurus (4,25) in index 25...Success
+Entry number 13 : Inserting Iguanodon (23,26) in index 26...Success
+Entry number 14 : Inserting Diplodocus (29,58)  in index 29...Success
+Entry number 15 : Inserting Megalosaurus (31,36)  in index 31...Success
+Entry number 16 : Inserting Tyrannosaurus (33,9)  in index 33...Success
+Entry number 17 : Inserting Patagosaurus (35,21)  in index 35...Success
+Entry number 24 : Inserting Velociraptor (49,32)  in index 49...Success
+Entry number 25 : Inserting Archeopteryx (51,49)  in index 51...Success
+
+Rehash successful!
+
+Inserting Spinosaurus (10,11)  in index 10...Success
+Inserting Albertosaurus (37,28)  in index 37...Success
+Inserting Ornithomimus (40,41)  in index 40...Success
+Inserting Protoceratops (12,59)  in index 12...Success
+Inserting Titanosaurus (3,19)  in index 3...Success
+Inserting Agustinia (9,35) temporary failure
+
+Rehashing with changed parameters (15,17)
+
+Entry number 1 : Inserting Argentinosaurus (1,1)  in index 1...Success
+Entry number 2 : Inserting Brachiosaurus (27,52)  in index 27...Success
+Entry number 3 : Inserting Titanosaurus (19,34)  in index 19...Success
+Entry number 4 : Inserting Stegosaurus (54,40)  in index 54...Success
+Entry number 7 : Inserting Deinonychus (4,0)  in index 4...Success
+Entry number 9 : Inserting Triceratops (1,57) in index 57...Success
+Entry number 10 : Inserting Spinosaurus (11,13)  in index 11...Success
+Entry number 11 : Inserting Rajasaurus (57,39) in index 39...Success
+Entry number 12 : Inserting Protoceratops (59,41)  in index 59...Success
+Entry number 20 : Inserting Leptoceratops (63,41)  in index 63...Success
+Entry number 23 : Inserting Allosaurus (32,40)  in index 32...Success
+Entry number 25 : Inserting Giganotosaurus (25,45)  in index 25...Success
+Entry number 26 : Inserting Iguanodon (26,30)  in index 26...Success
+Entry number 29 : Inserting Diplodocus (58,24)  in index 58...Success
+Entry number 31 : Inserting Megalosaurus (36,41)  in index 36...Success
+Entry number 33 : Inserting Tyrannosaurus (9,48)  in index 9...Success
+Entry number 35 : Inserting Patagosaurus (21,7)  in index 21...Success
+Entry number 37 : Inserting Albertosaurus (28,19)  in index 28...Success
+Entry number 40 : Inserting Ornithomimus (41,43)  in index 41...Success
+Entry number 49 : Inserting Velociraptor (32,15) in index 15...Success
+Entry number 50 : Inserting Carcharodontosaurus (14,41)  in index 14...Success
+Entry number 51 : Inserting Archeopteryx (49,47)  in index 49...Success
+
+Rehash successful!
+
+Inserting Agustinia (35,61)  in index 35...Success
+Inserting Microraptor (26,16) in index 16...Success
+Inserting Megaraptor (60,43)  in index 60...Success
+Inserting Baryonyx (62,62)  in index 62...Success
+Inserting Ceratosaurus (51,11)  in index 51...Success
+Inserting Carnotaurus (11,30) in index 30...Success
+Inserting Afrovenator (55,24)  in index 55...Success
+Inserting Majungasaurus (41,51) in index 43...Success
+Inserting Edaphosaurus (10,46)  in index 10...Success
+Inserting Pteranodon (27,53) in index 53...Success
+Inserting Apatosaurus (10,3) in index 3...
+
+High load factor=33/64...Rehashing...
+
+Rehashing with double size 128
+
+Entry number 1 : Inserting Argentinosaurus (2,3)  in index 2...Success
+Entry number 3 : Inserting Apatosaurus (21,6)  in index 21...Success
+Entry number 4 : Inserting Deinonychus (8,0)  in index 8...Success
+Entry number 9 : Inserting Tyrannosaurus (18,97)  in index 18...Success
+Entry number 10 : Inserting Edaphosaurus (21,92) in index 92...Success
+Entry number 11 : Inserting Spinosaurus (23,26)  in index 23...Success
+Entry number 14 : Inserting Carcharodontosaurus (28,83)  in index 28...Success
+Entry number 15 : Inserting Velociraptor (65,31)  in index 65...Success
+Entry number 16 : Inserting Microraptor (52,33)  in index 52...Success
+Entry number 19 : Inserting Titanosaurus (38,68)  in index 38...Success
+Entry number 21 : Inserting Patagosaurus (43,15)  in index 43...Success
+Entry number 25 : Inserting Giganotosaurus (50,91)  in index 50...Success
+Entry number 26 : Inserting Iguanodon (53,61)  in index 53...Success
+Entry number 27 : Inserting Brachiosaurus (54,104)  in index 54...Success
+Entry number 28 : Inserting Albertosaurus (56,38)  in index 56...Success
+Entry number 30 : Inserting Carnotaurus (23,60) in index 60...Success
+Entry number 32 : Inserting Allosaurus (64,81)  in index 64...Success
+Entry number 35 : Inserting Agustinia (71,123)  in index 71...Success
+Entry number 36 : Inserting Megalosaurus (73,83)  in index 73...Success
+Entry number 39 : Inserting Rajasaurus (114,78)  in index 114...Success
+Entry number 41 : Inserting Majungasaurus (83,102)  in index 83...Success
+Entry number 43 : Inserting Ornithomimus (83,86) in index 86...Success
+Entry number 49 : Inserting Archeopteryx (99,95)  in index 99...Success
+Entry number 51 : Inserting Ceratosaurus (103,23)  in index 103...Success
+Entry number 53 : Inserting Pteranodon (55,106)  in index 55...Success
+Entry number 54 : Inserting Stegosaurus (108,80)  in index 108...Success
+Entry number 55 : Inserting Afrovenator (110,48)  in index 110...Success
+Entry number 57 : Inserting Triceratops (3,114)  in index 3...Success
+Entry number 58 : Inserting Diplodocus (117,48)  in index 117...Success
+Entry number 59 : Inserting Protoceratops (118,82)  in index 118...Success
+Entry number 60 : Inserting Megaraptor (121,87)  in index 121...Success
+Entry number 62 : Inserting Baryonyx (124,124)  in index 124...Success
+Entry number 63 : Inserting Leptoceratops (126,83)  in index 126...Success
+
+Rehash successful!
+
+Inserting Edmontosaurus (110,117) in index 48...Success
+
+
+****SEARCHING****
+
+Search(Carcharodontosaurus) :(28,83) :  SUCCESS
+Search(Arobisaurus) :(68,17) :  FAILURE
+Search(Triceratops) :(3,114) :  SUCCESS
+
+
+****DELETING****
+
+Delete(Majungasaurus) : (83,102) : SUCCESS
+Delete(Leptoceratops) : (126,83) : SUCCESS
+Delete(Abhijiraptor) : (75,34) : FAILURE

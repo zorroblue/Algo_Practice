@@ -1,0 +1,11 @@
+x = int(raw_input("Please enter an integer:"))
+root = 0
+pwr = 1
+while (pwr < 6):
+    pwr += 1
+    while (root ** pwr < abs(x)):
+     if(root ** pwr == abs(x)):
+      print (root,pwr)
+     root += 1
+
+raw_input("Press any key to continue")

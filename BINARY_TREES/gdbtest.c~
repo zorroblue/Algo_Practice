@@ -5,9 +5,9 @@ typedef struct node
     int data;
     struct node *left,*right;
 }node;
-node *gen_node()
+node *Initialise_NewNode()
 {
-    node *newnode=(node *)malloc(sizeof(node));
+    node *newnode;//=(node *)malloc(sizeof(node));
     newnode->data=rand()%100;
     newnode->left=newnode->right=NULL;
     return newnode;
@@ -40,7 +40,7 @@ node *insert(node* root,node *newnode)
 void print_tree_inorder(node *root)
 {
     if(root==NULL)
-    {//        printf("the root is null");
+    {        printf("the root is null");
         return;}
     print_tree_inorder(root->left);
     printf("%d\n",root->data);
@@ -55,8 +55,12 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-         node *newnode=gen_node();    
-         root=insert(root,newnode);
+         node *newnode=(node *)malloc(sizeof(node));
+              newnode->data=rand()%100;
+               newnode->left=NULL;
+                newnode->right=NULL;
+    
+        insert(root,newnode);
     }
     print_tree_inorder(root);
     return 0;
